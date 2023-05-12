@@ -11,6 +11,7 @@ As tecnologias abordadas durante a especialização incluem:
 - Python
 - Java
 
+
 ## Estrutura do repositório:
 
 - branch 'introducao-programacao-I': Contém projetos e exercícios da disciplina de Introdução à Programação I, que aborda os conceitos básicos de programação, incluindo tipos de dados, operadores, estruturas condicionais e repetições.
