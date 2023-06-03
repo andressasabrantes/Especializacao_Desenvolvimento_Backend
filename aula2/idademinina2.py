@@ -12,9 +12,8 @@ else:
         print('Você pode entrar na festa!')
         print('Siga para o primeiro andar!')
     elif ingresso == 'PISTA':
-        print('Você pode entrar na festa!')
         print('Siga para a pista!')
     else:
-        print('É hora de voltar para a sua casinha!')
+        print('É hora de voltar para a su casinha!')
 
 print('-----Finalizando programa-----')
