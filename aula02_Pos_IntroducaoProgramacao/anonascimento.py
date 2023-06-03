@@ -1,13 +1,14 @@
-print('Você já pode votar?')
+print('Vamos descobrir se você já pode votar e tirar habilitação!')
 
 ano_nascimento = int(input('Digite o seu ano de nascimento: '))
 ano_atual = 2023
+idade = (ano_atual - ano_nascimento)
 
-if ano_nascimento >= 2007 and ano_nascimento < 2005:
-    idade = ano_nascimento - ano_atual
-elif ano_nascimento >= 2005:
-    idade = ano_nascimento - ano_atual
+print(f'Você tem {idade} anos!')
 
-print(f'Você tem ')
-
-
+if idade >= 16 and idade < 18:
+    print(f'Você já tem idade para votar, mas ainda não pode tirar habilitação!')
+elif idade >= 18:
+    print(f'E já pode tirar sua habilitação e votar!')
+else:
+    print('Você ainda não pode votar e tirar uma habilitação!')
