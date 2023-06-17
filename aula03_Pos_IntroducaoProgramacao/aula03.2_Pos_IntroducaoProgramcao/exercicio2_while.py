@@ -8,3 +8,17 @@ while meu_nome != 'Andressa' and meu_nome != 'andressa':
     meu_nome = input()
 
 print('Parabéns!Você acertou!')
+
+
+while True:
+    guess = input('Digite seu nome: ').upper()
+    nome = 'seu nome'.upper()
+    if guess == nome:
+        print('Parabéns, você acertou!')
+        break;
+    else:
+        print('Não foi dessa vez! Tente novamente...')
+
+
+
+
